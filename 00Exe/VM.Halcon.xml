@@ -1,0 +1,2143 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VM.Halcon</name>
+    </assembly>
+    <members>
+        <member name="M:VM.Halcon.Config.Circle.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            圆
+            </summary>
+            <param name="row">行</param>
+            <param name="column">列</param>
+            <param name="radius">角度</param>
+        </member>
+        <member name="M:VM.Halcon.Config.CoordLine.#ctor">
+            <summary>
+            直线
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Config.CoordLine.#ctor(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            直线
+            </summary>
+            <param name="rowBegin">起始X</param>
+            <param name="columnBegin">起始Y</param>
+            <param name="rowEnd">结束X</param>
+            <param name="columnEnd">结束Y</param>
+        </member>
+        <member name="T:VM.Halcon.Config.HObjectWithColor">
+            <summary>
+            显示xld和region 带有颜色
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Config.HObjectWithColor.#ctor(HalconDotNet.HObject,System.String,System.Boolean)">
+            <summary>
+            HObject
+            </summary>
+            <param name="_hbj">类型</param>
+            <param name="_color">颜色</param>
+        </member>
+        <member name="T:VM.Halcon.Config.HRoi">
+            <summary>
+            用于展示效果的HObject
+            </summary>
+        </member>
+        <member name="P:VM.Halcon.Config.HRoi.ModuleEncode">
+            <summary>模块编号</summary>
+        </member>
+        <member name="P:VM.Halcon.Config.HRoi.ModuleName">
+            <summary>模块名</summary>
+        </member>
+        <member name="P:VM.Halcon.Config.HRoi.Remarks">
+            <summary>单元描述</summary>
+        </member>
+        <member name="P:VM.Halcon.Config.HRoi.roiType">
+            <summary>轮廓分类</summary>
+        </member>
+        <member name="P:VM.Halcon.Config.HRoi.drawColor">
+            <summary>画笔颜色</summary>
+        </member>
+        <member name="P:VM.Halcon.Config.HRoi.hobject">
+            <summary>测量roi</summary>
+        </member>
+        <member name="P:VM.Halcon.Config.HRoi.fors">
+            <summary>循环+</summary>
+        </member>
+        <member name="P:VM.Halcon.Config.HRoi.IsFillDisp">
+            <summary>Fill显示</summary>
+        </member>
+        <member name="M:VM.Halcon.Config.HRoi.#ctor">
+            <summary>测量roi</summary>
+        </member>
+        <member name="P:VM.Halcon.Config.HText.text">
+            <summary>文字</summary>
+        </member>
+        <member name="F:VM.Halcon.Config.HText.font">
+            <summary>字体</summary>
+        </member>
+        <member name="P:VM.Halcon.Config.HText.row">
+            <summary>显示的位置-X</summary>
+        </member>
+        <member name="P:VM.Halcon.Config.HText.col">
+            <summary>显示的位置-Y</summary>
+        </member>
+        <member name="P:VM.Halcon.Config.HText.size">
+            <summary>大小</summary>
+        </member>
+        <member name="P:VM.Halcon.Config.HText.phi">
+            <summary>角度</summary>
+        </member>
+        <member name="M:VM.Halcon.Config.HText.#ctor(System.Int32,System.String,System.String,VM.Halcon.Config.HRoiType,System.String,System.String,System.Double,System.Double,System.Int32,System.String)">
+            <summary>
+            测量roi
+            </summary>
+            <param name="_CellID">单元id</param>
+            <param name="_CellType">单元类型</param>
+            <param name="_CellNote">单元描述</param>
+            <param name="_roiType">ROI类型</param>
+            <param name="_drawColor">画笔颜色</param>
+            <param name="_text">文本内容</param>
+            <param name="_font">字体</param>
+            <param name="_row">行</param>
+            <param name="_col">列</param>
+            <param name="_size">大小</param>
+        </member>
+        <member name="M:VM.Halcon.Config.HText.#ctor(System.Int32,System.String,System.String,VM.Halcon.Config.HRoiType,System.String,System.String,System.String,System.Double,System.Double,System.Int32,HalconDotNet.HObject,System.Boolean)">
+            <summary>
+            测量roi
+            </summary>
+            <param name="_CellID">单元id</param>
+            <param name="_CellType">单元类型</param>
+            <param name="_CellNote">单元描述</param>
+            <param name="_roiType">ROI类型</param>
+            <param name="_drawColor">画笔颜色</param>
+            <param name="_text">文本内容</param>
+            <param name="_font">字体</param>
+            <param name="_row">行</param>
+            <param name="_col">列</param>
+            <param name="_size">大小</param>
+            <param name="_for">循环+</param>
+        </member>
+        <member name="T:VM.Halcon.Config.HRoiType">
+            <summary>
+            轮廓分类
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Config.Line.#ctor">
+            <summary>
+            直线
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Config.Line.#ctor(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            直线
+            </summary>
+            <param name="rowBegin">起始X</param>
+            <param name="columnBegin">起始Y</param>
+            <param name="rowEnd">结束X</param>
+            <param name="columnEnd">结束Y</param>
+        </member>
+        <member name="M:VM.Halcon.Config.Rectangle1.#ctor(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            矩形
+            </summary>
+            <param name="row1">起始X</param>
+            <param name="column1">起始Y</param>
+            <param name="row2">结束X</param>
+            <param name="column2">结束Y</param>
+        </member>
+        <member name="M:VM.Halcon.Config.Rectangle2.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            旋转矩形
+            </summary>
+            <param name="row">起始X</param>
+            <param name="column">起始Y</param>
+            <param name="phi">角度</param>
+            <param name="lenth1">长</param>
+            <param name="lenth2">宽</param>
+        </member>
+        <member name="F:VM.Halcon.Config.RImage.Status">
+            <summary>状态</summary>
+        </member>
+        <member name="F:VM.Halcon.Config.RImage.Name">
+            <summary> 名称 </summary>
+        </member>
+        <member name="F:VM.Halcon.Config.RImage.DispViewID">
+            <summary>窗体ID</summary>
+        </member>
+        <member name="F:VM.Halcon.Config.RImage.Width">
+            <summary>宽</summary>
+        </member>
+        <member name="F:VM.Halcon.Config.RImage.Height">
+            <summary>高</summary>
+        </member>
+        <member name="F:VM.Halcon.Config.RImage.X">
+            <summary>采集当前图像时候的位置X </summary>
+        </member>
+        <member name="F:VM.Halcon.Config.RImage.Y">
+            <summary> 采集当前图像时候的位置X</summary>
+        </member>
+        <member name="F:VM.Halcon.Config.RImage.Z">
+            <summary>采集当前图像时候的位置X</summary>
+        </member>
+        <member name="F:VM.Halcon.Config.RImage.PhiX">
+            <summary> X轴和直角坐标系X轴夹角 </summary>
+        </member>
+        <member name="F:VM.Halcon.Config.RImage.PhiY">
+            <summary> X轴和直角坐标系旋转重叠后 Y轴和直角坐标系Y轴夹角 </summary>
+        </member>
+        <member name="F:VM.Halcon.Config.RImage.ScaleX">
+            <summary> X方向像素比率</summary>
+        </member>
+        <member name="F:VM.Halcon.Config.RImage.ScaleY">
+            <summary> Y方向像素比率</summary>
+        </member>
+        <member name="P:VM.Halcon.Config.RImage.BoardRow">
+            <summary> 标定板行坐标</summary>
+        </member>
+        <member name="P:VM.Halcon.Config.RImage.BoardCol">
+            <summary> 标定板列坐标 </summary>
+        </member>
+        <member name="P:VM.Halcon.Config.RImage.BoardX">
+            <summary>标定板X坐标 </summary>
+        </member>
+        <member name="P:VM.Halcon.Config.RImage.BoardY">
+            <summary> 标定板列坐标</summary>
+        </member>
+        <member name="P:VM.Halcon.Config.RImage.IsCal">
+            <summary> 标定标记</summary>
+        </member>
+        <member name="M:VM.Halcon.Config.RImage.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>序列化</summary>
+            <param name="info"></param>
+            <param name="context"></param>
+        </member>
+        <member name="M:VM.Halcon.Config.RImage.GetHome">
+            <summary>图片缩放</summary>
+        </member>
+        <member name="M:VM.Halcon.Config.RImage.GetAngle">
+            <summary> 获取校正相机夹角和校正轴矩阵</summary>
+        </member>
+        <member name="M:VM.Halcon.Config.RImage.SaveRImage(System.String)">
+            <summary>保存RImage</summary>
+        </member>
+        <member name="M:VM.Halcon.Config.RImage.ToRImage(HalconDotNet.HObject)">
+            <summary>HImageToRImage</summary>
+        </member>
+        <member name="M:VM.Halcon.Config.RImage.ReadRImage(System.String)">
+            <summary> 从文件中获取RImage对象</summary>
+        </member>
+        <member name="F:VM.Halcon.Config.RImage.mHRoi">
+            <summary>显示的ROI</summary>
+        </member>
+        <member name="F:VM.Halcon.Config.RImage.mHText">
+            <summary>显示的信息</summary>
+        </member>
+        <member name="M:VM.Halcon.Config.RImage.ShowHRoi(VM.Halcon.Config.HRoi)">
+            <summary>显示Roi</summary>
+        </member>
+        <member name="M:VM.Halcon.Config.RImage.ShowHText(VM.Halcon.Config.HText)">
+            <summary>显示文本 </summary>
+        </member>
+        <member name="M:VM.Halcon.Config.RImage.Clone">
+            <summary>深拷贝</summary>
+        </member>
+        <member name="M:VM.Halcon.Config.SerializeHelper.Save(System.Object,System.String)">
+            <summary>
+            文件化XML序列化
+            </summary>
+            <param name="obj">对象</param>
+            <param name="filename">文件路径</param>
+        </member>
+        <member name="M:VM.Halcon.Config.SerializeHelper.Load(System.Type,System.String)">
+            <summary>
+            文件化XML反序列化
+            </summary>
+            <param name="type">对象类型</param>
+            <param name="filename">文件路径</param>
+        </member>
+        <member name="M:VM.Halcon.Config.SerializeHelper.ToXml``1(``0)">
+            <summary>
+            文本化XML序列化
+            </summary>
+            <param name="item">对象</param>
+        </member>
+        <member name="M:VM.Halcon.Config.SerializeHelper.FromXml``1(System.String)">
+            <summary>
+            文本化XML反序列化
+            </summary>
+            <param name="str">字符串序列</param>
+        </member>
+        <member name="M:VM.Halcon.Config.SerializeHelper.ToSoap``1(``0)">
+            <summary>
+            SoapFormatter序列化
+            </summary>
+            <param name="item">对象</param>
+        </member>
+        <member name="M:VM.Halcon.Config.SerializeHelper.FromSoap``1(System.String)">
+            <summary>
+            SoapFormatter反序列化
+            </summary>
+            <param name="str">字符串序列</param>
+        </member>
+        <member name="M:VM.Halcon.Config.SerializeHelper.ToBinary``1(``0)">
+            <summary>
+            BinaryFormatter序列化
+            </summary>
+            <param name="item">对象</param>
+        </member>
+        <member name="M:VM.Halcon.Config.SerializeHelper.FromBinary``1(System.String)">
+            <summary>
+            BinaryFormatter反序列化
+            </summary>
+            <param name="str">字符串序列</param>
+        </member>
+        <member name="M:VM.Halcon.Config.SerializeHelper.GetBytes(System.Object)">
+            <summary>
+            获取对象序列化的二进制版本
+            </summary>
+            <param name="pObj">对象实体</param>
+            <returns>如果对象实体为Null，则返回结果为Null。</returns>
+        </member>
+        <member name="M:VM.Halcon.Config.SerializeHelper.GetXmlDoc(System.Object)">
+            <summary>
+            获取对象序列化的XmlDocument版本
+            </summary>
+            <param name="pObj">对象实体</param>
+            <returns>如果对象实体为Null，则返回结果为Null。</returns>
+        </member>
+        <member name="M:VM.Halcon.Config.SerializeHelper.GetObject``1(System.Byte[])">
+            <summary>
+            从已序列化数据中(byte[])获取对象实体
+            </summary>
+            <typeparam name="T">要返回的数据类型</typeparam>
+            <param name="binData">二进制数据</param>
+            <returns>对象实体</returns>
+        </member>
+        <member name="M:VM.Halcon.Config.SerializeHelper.GetObject``1(System.Xml.XmlDocument)">
+            <summary>
+            从已序列化数据(XmlDocument)中获取对象实体
+            </summary>
+            <typeparam name="T">要返回的数据类型</typeparam>
+            <param name="xmlDoc">已序列化的文档对象</param>
+            <returns>对象实体</returns>
+        </member>
+        <member name="M:VM.Halcon.Config.ShowTool.SetMsg(HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple)">
+            <summary>
+            字体显示-窗口,内容,"",X,Y,颜色,背景
+            </summary>
+            <param name="hv_WindowHandle">窗口</param>
+            <param name="hv_String">内容</param>
+            <param name="hv_CoordSystem"></param>
+            <param name="hv_Row">X</param>
+            <param name="hv_Col">Y</param>
+            <param name="hv_Color">颜色</param>
+            <param name="hv_Box">背景</param>
+        </member>
+        <member name="M:VM.Halcon.Config.ShowTool.SetFont(HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple)">
+            <summary>
+            设置字体-窗,大小,字体,粗体,倾斜
+            </summary>
+            <param name="hv_WindowHandle">窗体句柄</param>
+            <param name="hv_Size">大小</param>
+            <param name="hv_Font">字体</param>
+            <param name="hv_Bold">粗体</param>
+            <param name="hv_Slant">倾斜</param>
+        </member>
+        <member name="M:VM.Halcon.Config.ShowTool.ScaleImageRange(HalconDotNet.HImage,System.Double,System.Double)">
+            <summary>图像范围</summary>
+            <param name="srcImg">图像</param>
+            <param name="valueMin">最小</param>
+            <param name="valueMax">最大</param>
+            <returns></returns>
+        </member>
+        <member name="T:VM.Halcon.Model.ROICoordLine">
+            <summary>
+            This class demonstrates one of the possible implementations for a 
+            linear ROI. ROICoordLine inherits from the base class ROI and 
+            implements (besides other auxiliary methods) all virtual methods 
+            defined in ROI.cs.
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROICoordLine.StartY">
+            <summary>起点行坐标</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROICoordLine.StartX">
+            <summary>起点列坐标</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROICoordLine.EndY">
+            <summary>终点行坐标</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROICoordLine.EndX">
+            <summary>终点列坐标</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROICoordLine.MidX">
+            <summary>中点行坐标</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROICoordLine.MidY">
+            <summary>中点列坐标</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROICoordLine.Phi">
+            <summary>直线角度</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROICoordLine.Dist">
+            <summary>直线长度</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROICoordLine.Nx">
+            <summary>行向量</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROICoordLine.Ny">
+            <summary>列向量</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROICoordLine.X">
+            <summary>X点集合</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROICoordLine.Y">
+            <summary>Y点集合</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROICoordLine.arrowHandleXLD">
+            <summary>直线上添加箭头显示</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICoordLine.CreateROI(System.Double,System.Double)">
+            <summary>Creates a new ROI instance at the mouse position.</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICoordLine.Draw(HalconDotNet.HWindow)">
+            <summary>Paints the ROI into the supplied window.</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICoordLine.DistToClosestHandle(System.Double,System.Double)">
+            <summary> 
+            Returns the distance of the ROI handle being
+            closest to the image point(x,y).
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICoordLine.DisplayActive(HalconDotNet.HWindow)">
+            <summary> 
+            Paints the active handle of the ROI object into the supplied window. 
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICoordLine.GetRegion">
+            <summary>Gets the HALCON region described by the ROI.</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICoordLine.GetModelData">
+            <summary>
+            Gets the model information described by 
+            the ROI.
+            </summary> 
+        </member>
+        <member name="M:VM.Halcon.Model.ROICoordLine.moveByHandle(System.Double,System.Double)">
+            <summary> 
+            Recalculates the shape of the ROI. Translation is 
+            performed at the active handle of the ROI object 
+            for the image coordinate (x,y).
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICoordLine.ShowArrowHandle">
+            <summary>
+            Auxiliary method
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICoordLine.SetMsg(HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple)">
+            <summary>
+            字体显示-窗口,内容,"",X,Y,颜色,背景
+            </summary>
+            <param name="hv_WindowHandle">窗口</param>
+            <param name="hv_String">内容</param>
+            <param name="hv_CoordSystem"></param>
+            <param name="hv_Row">X</param>
+            <param name="hv_Col">Y</param>
+            <param name="hv_Color">颜色</param>
+            <param name="hv_Box">背景</param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICoordLine.SetFont(HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple)">
+            <summary>
+            设置字体-窗,大小,字体,粗体,倾斜
+            </summary>
+            <param name="hv_WindowHandle">窗体句柄</param>
+            <param name="hv_Size">大小</param>
+            <param name="hv_Font">字体</param>
+            <param name="hv_Bold">粗体</param>
+            <param name="hv_Slant">倾斜</param>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIType.Line">
+            <summary>
+            直线
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIType.Circle">
+            <summary>
+            圆
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIType.CircleArc">
+            <summary>
+            圆弧
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIType.Rectangle1">
+            <summary>
+            矩形
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIType.Rectangle2">
+            <summary>
+            带角度矩形
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIType.CoordLine">
+            <summary>
+            坐标中心
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIType.Point">
+            <summary>
+            坐标中心
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIDefine.None">
+            <summary>
+            空
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIDefine.Int">
+            <summary>
+            输入
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIDefine.Out">
+            <summary>
+            输出
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIDefine.Affine">
+            <summary>
+            变换
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIDefine.Search">
+            <summary>
+            搜索区域
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIDefine.Templet">
+            <summary>
+            模板区域
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIDefine.Disable">
+            <summary>
+            屏蔽区域
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIDefine.Line">
+            <summary>
+            直线
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIDefine.Circle">
+            <summary>
+            圆
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIDefine.CircleArc">
+            <summary>
+            圆弧
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIDefine.Rectangle1">
+            <summary>
+            矩形
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIDefine.Rectangle2">
+            <summary>
+            带角度矩形
+            </summary>
+        </member>
+        <member name="T:VM.Halcon.Model.ROIOperation">
+            <summary>
+            ROI运算
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIOperation.Positive">
+            <summary>
+            ROI求和模式
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIOperation.Negative">
+            <summary>
+            ROI求差模式
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIOperation.None">
+            <summary>
+            ROI模式为无
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ViewMessage.UpdateROI">
+            <summary>Constant describing an update of the model region</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ViewMessage.MovingROI">
+            <summary>Constant describing an update of the model region</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ViewMessage.UpdateImage">
+            <summary>
+            Constant describes delegate message to signal new image
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ViewMessage.ErrReadingImage">
+            <summary>
+            Constant describes delegate message to signal error
+            when reading an image from file
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ViewMessage.ErrDefiningGC">
+            <summary> 
+            Constant describes delegate message to signal error
+            when defining a graphical context
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ShowMode.IncludeROI">
+            <summary>
+            包含ROI显示
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ShowMode.ExcludeROI">
+            <summary>
+            不包含ROI显示
+            </summary>
+        </member>
+        <member name="T:VM.Halcon.Model.GraphicsContext">
+            <summary>
+            This class contains the graphical context of an HALCON object. The
+            set of graphical modes is defined by the hashlist 'graphicalSettings'.
+            If the list is empty, then there is no difference to the graphical
+            setting defined by the system by default. Otherwise, the provided
+            HALCON window is adjusted according to the entries of the supplied
+            graphical context (when calling applyContext()) 
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.GraphicsContext.GC_COLOR">
+            <summary>
+            Graphical mode for the output color (see dev_set_color)
+            </summary>        
+        </member>
+        <member name="F:VM.Halcon.Model.GraphicsContext.GC_COLORED">
+            <summary>
+            Graphical mode for the multi-color output (see dev_set_colored)
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.GraphicsContext.GC_LINEWIDTH">
+            <summary>
+            Graphical mode for the line width (see set_line_width)
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.GraphicsContext.GC_DRAWMODE">
+            <summary>
+            Graphical mode for the drawing (see set_draw)
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.GraphicsContext.GC_SHAPE">
+            <summary>
+            Graphical mode for the drawing shape (see set_shape)
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.GraphicsContext.GC_LUT">
+            <summary>
+            Graphical mode for the LUT (lookup table) (see set_lut)
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.GraphicsContext.GC_PAINT">
+            <summary>
+            Graphical mode for the painting (see set_paint)
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.GraphicsContext.GC_LINESTYLE">
+            <summary>
+            Graphical mode for the line style (see set_line_style)
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.GraphicsContext.graphicalSettings">
+            <summary> 
+            Hashlist containing entries for graphical modes (defined by GC_*), 
+            which is then linked to some HALCON object to describe its 
+            graphical context.
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.GraphicsContext.stateOfSettings">
+            <summary> 
+            Backup of the last graphical context applied to the window.
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.GraphicsContext.gcNotification">
+            <summary> 
+            Option to delegate messages from the graphical context 
+            to some observer class 
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.GraphicsContext.#ctor">
+            <summary> 
+            Creates a graphical context with no initial 
+            graphical modes 
+            </summary> 
+        </member>
+        <member name="M:VM.Halcon.Model.GraphicsContext.#ctor(System.Collections.Hashtable)">
+            <summary> 
+            Creates an instance of the graphical context with 
+            the modes defined in the hashtable 'settings' 
+            </summary>
+            <param name="settings"> 
+            List of modes, which describes the graphical context 
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.GraphicsContext.ApplyContext(HalconDotNet.HWindow,System.Collections.Hashtable)">
+            <summary>Applies graphical context to the HALCON window</summary>
+            <param name="window">Active HALCON window</param>
+            <param name="cContext">
+            List that contains graphical modes for window
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.GraphicsContext.setColorAttribute(System.String)">
+            <summary>Sets a value for the graphical mode GC_COLOR</summary>
+            <param name="val"> 
+            A single color, e.g. "blue", "green" ...etc. 
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.GraphicsContext.setColoredAttribute(System.Int32)">
+            <summary>Sets a value for the graphical mode GC_COLORED</summary>
+            <param name="val"> 
+            The colored mode, which can be either "colored3" or "colored6"
+            or "colored12" 
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.GraphicsContext.setDrawModeAttribute(System.String)">
+            <summary>Sets a value for the graphical mode GC_DRAWMODE</summary>
+            <param name="val"> 
+            One of the possible draw modes: "margin" or "fill" 
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.GraphicsContext.setLineWidthAttribute(System.Int32)">
+            <summary>Sets a value for the graphical mode GC_LINEWIDTH</summary>
+            <param name="val"> 
+            The line width, which can range from 1 to 50 
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.GraphicsContext.setLutAttribute(System.String)">
+            <summary>Sets a value for the graphical mode GC_LUT</summary>
+            <param name="val"> 
+            One of the possible modes of look up tables. For 
+            further information on particular setups, please refer to the
+            Reference Manual entry of the operator set_lut.
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.GraphicsContext.setPaintAttribute(System.String)">
+            <summary>Sets a value for the graphical mode GC_PAINT</summary>
+            <param name="val"> 
+            One of the possible paint modes. For further 
+            information on particular setups, please refer refer to the
+            Reference Manual entry of the operator set_paint.
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.GraphicsContext.setShapeAttribute(System.String)">
+            <summary>Sets a value for the graphical mode GC_SHAPE</summary>
+            <param name="val">
+            One of the possible shape modes. For further 
+            information on particular setups, please refer refer to the
+            Reference Manual entry of the operator set_shape.
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.GraphicsContext.setLineStyleAttribute(HalconDotNet.HTuple)">
+            <summary>Sets a value for the graphical mode GC_LINESTYLE</summary>
+            <param name="val"> 
+            A line style mode, which works 
+            identical to the input for the HDevelop operator 
+            'set_line_style'. For particular information on this 
+            topic, please refer to the Reference Manual entry of the operator
+            set_line_style.
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.GraphicsContext.addValue(System.String,System.Int32)">
+            <summary> 
+            Adds a value to the hashlist 'graphicalSettings' for the 
+            graphical mode described by the parameter 'key' 
+            </summary>
+            <param name="key"> 
+            A graphical mode defined by the constant GC_* 
+            </param>
+            <param name="val"> 
+            Defines the value as an int for this graphical
+            mode 'key' 
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.GraphicsContext.addValue(System.String,System.String)">
+            <summary>
+            Adds a value to the hashlist 'graphicalSettings' for the 
+            graphical mode, described by the parameter 'key'
+            </summary>
+            <param name="key"> 
+            A graphical mode defined by the constant GC_* 
+            </param>
+            <param name="val"> 
+            Defines the value as a string for this 
+            graphical mode 'key' 
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.GraphicsContext.addValue(System.String,HalconDotNet.HTuple)">
+            <summary> 
+            Adds a value to the hashlist 'graphicalSettings' for the 
+            graphical mode, described by the parameter 'key'
+            </summary>
+            <param name="key">
+            A graphical mode defined by the constant GC_* 
+            </param>
+            <param name="val"> 
+            Defines the value as a HTuple for this 
+            graphical mode 'key' 
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.GraphicsContext.clear">
+            <summary> 
+            Clears the list of graphical settings. 
+            There will be no graphical changes made prior 
+            before drawing objects, since there are no 
+            graphical entries to be applied to the window.
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.GraphicsContext.copy">
+            <summary> 
+            Returns an exact clone of this graphicsContext instance 
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.GraphicsContext.getGraphicsAttribute(System.String)">
+            <summary> 
+            If the hashtable contains the key, the corresponding 
+            hashtable value is returned 
+            </summary>
+            <param name="key"> 
+            One of the graphical keys starting with GC_* 
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.GraphicsContext.copyContextList">
+            <summary> 
+            Returns a copy of the hashtable that carries the 
+            entries for the current graphical context 
+            </summary>
+            <returns> current graphical context </returns>
+        </member>
+        <member name="T:VM.Halcon.Model.HObjectEntry">
+            <summary>
+            This class is an auxiliary class, which is used to 
+            link a graphical context to an HALCON object. The graphical 
+            context is described by a hashtable, which contains a list of
+            graphical modes (e.g GC_COLOR, GC_LINEWIDTH and GC_PAINT) 
+            and their corresponding values (e.g "blue", "4", "3D-plot"). These
+            graphical states are applied to the window before displaying the
+            object.
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HObjectEntry.gContext">
+            <summary>Hashlist defining the graphical context for HObj</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HObjectEntry.HObj">
+            <summary>HALCON object</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HObjectEntry.#ctor(HalconDotNet.HObject,System.Collections.Hashtable)">
+            <summary>Constructor</summary>
+            <param name="obj">
+            HALCON object that is linked to the graphical context gc. 
+            </param>
+            <param name="gc"> 
+            Hashlist of graphical states that are applied before the object
+            is displayed. 
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.HObjectEntry.clear">
+            <summary>
+            Clears the entries of the class members Hobj and gContext
+            </summary>
+        </member>
+        <member name="T:VM.Halcon.Model.HWndCtrl">
+            <summary>
+            This class works as a wrapper class for the HALCON window
+            HWindow. HWndCtrl is in charge of the visualization.
+            You can move and zoom the visible image part by using GUI component 
+            inputs or with the mouse. The class HWndCtrl uses a graphics stack 
+            to manage the iconic objects for the display. Each object is linked 
+            to a graphical context, which determines how the object is to be drawn.
+            The context can be changed by calling changeGraphicSettings().
+            The graphical "modes" are defined by the class GraphicsContext and 
+            map most of the dev_set_* operators provided in HDevelop.
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.MODE_INCLUDE_ROI">
+            <summary>显示ROI</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.MODE_EXCLUDE_ROI">
+            <summary>不显示ROI</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.MODE_VIEW_NONE">
+            <summary>对鼠标事件不执行任何操作</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.MODE_VIEW_ZOOM">
+            <summary>缩放在鼠标事件上执行</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.MODE_VIEW_MOVE">
+            <summary>在鼠标事件上执行移动</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.MODE_VIEW_ZOOMWINDOW">
+            <summary>对鼠标事件进行放大</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.MODE_ERASER">
+            <summary>擦除</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.MODE_PAINT">
+            <summary>喷涂</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.MODE_ROI_POS">
+            <summary>设置ROI模式的常数:ROI正符号。</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.MODE_ROI_NEG">
+            <summary>设置ROI模式的常数:负的ROI符号。</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.MODE_ROI_NONE">
+            <summary>设置ROI模式的常数:没有模型区域计算为/// 所有ROI对象的总和.</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.EVENT_UPDATE_IMAGE">
+            <summary>描述为新图像发出信号的委托消息</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.ERR_READING_IMG">
+            <summary>常量描述从文件中读取图像时发出错误信号的委托消息 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.ERR_DEFINING_GC">
+            <summary>常量在定义图形上下文时，将委托消息描述为信号错误</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.EVENT_UPDATE_ROI">
+            <summary>描述模型区域更新的常数</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.EVENT_MOVING_ROI">
+            <summary>描述模型区域更新的常数</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.MAXNUMOBJLIST">
+            <summary> 可以放置在图形上的HALCON对象的最大数量,堆栈不丢失。对于每个额外的对象，第一个条目,被再次从栈中移除。</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.ViewPort">
+            <summary>HALCON window</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.ROIManager">
+            <summary>ROIController的实例，它管理ROI交互</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.DispROI">
+            <summary>绘制例程和是否响应鼠标事件 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.drawModel">
+            <summary>缩放事件开关</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.ImgRow1">
+            <summary> 图像坐标，用于描述HALCON窗口中显示的图像部分 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.ImgCol1">
+            <summary> 图像坐标，用于描述HALCON窗口中显示的图像部分 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.ImgRow2">
+            <summary> 图像坐标，用于描述HALCON窗口中显示的图像部分 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.ImgCol2">
+            <summary> 图像坐标，用于描述HALCON窗口中显示的图像部分 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.StepSizeX">
+            <summary> 图像坐标，用于描述HALCON窗口中显示的图像部分 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.StepSizeY">
+            <summary> 图像坐标，用于描述HALCON窗口中显示的图像部分 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.ExceptionText">
+            <summary>抛出异常时的错误消息</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.AddInfoDelegate">
+            <summary>委托发送通知消息到其他类 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.NotifyIconObserver">
+            <summary>通知HWndCtrl实例的失败任务 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.ZoomWndFactor">
+            <summary> 缩放操作</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.ZoomAddOn">
+            <summary> 缩放操作</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.HObjImageList">
+            <summary> 绘制到HALCON窗口的HALCON对象列表 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.mGC">
+            <summary>用于描述图形上下文的实例， HALCON窗口。根据图形设置</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.message">
+            <summary>灰度值，坐标位置</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.#ctor(HalconDotNet.HWindowControl)">
+            <summary>初始化图像尺寸、鼠标委托和实例的图形上下文设置。 </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.SetImagePart(HalconDotNet.HImage)">
+            <summary>读取图像的尺寸以调整自己的窗口设置 </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.SetImagePart(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>根据左边提供的值调整窗口设置，右上角和右下角 </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.SetViewState(System.Int32)">
+            <summary>设置HALCON窗口中的鼠标事件的视图模式(缩放，移动，放大或无)。 </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.SetDispLevel(System.Int32)">
+            <summary>
+            Paint or don't paint the ROIs into the HALCON window by 
+            defining the parameter to be equal to 1 or not equal to 1.
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.ZoomImage(System.Double)">
+            <summary>
+            Scales the image in the HALCON window according to the 
+            value scaleFactor
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.ScaleWindow(System.Double)">
+            <summary>
+            Scales the HALCON window according to the value scale
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.SetZoomWndFactor">
+            <summary>
+            Recalculates the image-window-factor, which needs to be added to 
+            the scale factor for zooming an image. This way the zoom gets 
+            adjusted to the window-image relation, expressed by the equation 
+            ImageWidth/ViewPort.Width.
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.SetZoomWndFactor(System.Double)">
+            <summary>
+            Sets the image-window-factor to the value zoomF
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.ResetAll">
+            <summary>
+            Resets all parameters that concern the HALCON window display 
+            setup to their initial values and clears the ROI list.
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.SetGUICompRangeX(System.Int32[],System.Int32)">
+            <summary>
+            To initialize the move function using a GUI component, the HWndCtrl
+            first needs to know the range supplied by the GUI component. 
+            For the x direction it is specified by xRange, which is 
+            calculated as follows: GuiComponentX.Max()-GuiComponentX.Min().
+            The starting value of the GUI component has to be supplied 
+            by the parameter Init
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.SetGUICompRangeY(System.Int32[],System.Int32)">
+            <summary>
+            To initialize the move function using a GUI component, the HWndCtrl
+            first needs to know the range supplied by the GUI component. 
+            For the y direction it is specified by yRange, which is 
+            calculated as follows: GuiComponentY.Max()-GuiComponentY.Min().
+            The starting value of the GUI component has to be supplied 
+            by the parameter Init
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.ResetGUIInitValues(System.Int32,System.Int32)">
+            <summary>
+            Resets to the starting value of the GUI component.
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.MoveXByGUIHandle(System.Int32)">
+            <summary>
+            Moves the image by the value valX supplied by the GUI component
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.MoveYByGUIHandle(System.Int32)">
+            <summary>
+            Moves the image by the value valY supplied by the GUI component
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.ZoomByGUIHandle(System.Double)">
+            <summary>
+            Zooms the image by the value valF supplied by the GUI component
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.Repaint">
+            <summary>
+            Triggers a Repaint of the HALCON window
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.Repaint(HalconDotNet.HWindow)">
+            <summary>
+            Repaints the HALCON window 'window'
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.AddIconicVar(HalconDotNet.HObject)">
+            <summary>
+            Adds an iconic object to the graphics stack similar to the way
+            it is defined for the HDevelop graphics stack.
+            </summary>
+            <param name="obj">Iconic object</param>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.ClearList">
+            <summary>
+            Clears all entries from the graphics stack 
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.GetListCount">
+            <summary>
+            Returns the number of items on the graphics stack
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.ChangeGraphicSettings(System.String,System.String)">
+            <summary>
+            Changes the current graphical context by setting the specified mode
+            (constant starting by GC_*) to the specified value.
+            </summary>
+            <param name="mode">
+            Constant that is provided by the class GraphicsContext
+            and describes the mode that has to be changed, 
+            e.g., GraphicsContext.GC_COLOR
+            </param>
+            <param name="val">
+            Value, provided as a string, 
+            the mode is to be changed to, e.g., "blue" 
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.ChangeGraphicSettings(System.String,System.Int32)">
+            <summary>
+            Changes the current graphical context by setting the specified mode
+            (constant starting by GC_*) to the specified value.
+            </summary>
+            <param name="mode">
+            Constant that is provided by the class GraphicsContext
+            and describes the mode that has to be changed, 
+            e.g., GraphicsContext.GC_LINEWIDTH
+            </param>
+            <param name="val">
+            Value, provided as an integer, the mode is to be changed to, 
+            e.g., 5 
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.ChangeGraphicSettings(System.String,HalconDotNet.HTuple)">
+            <summary>
+            Changes the current graphical context by setting the specified mode
+            (constant starting by GC_*) to the specified value.
+            </summary>
+            <param name="mode">
+            Constant that is provided by the class GraphicsContext
+            and describes the mode that has to be changed, 
+            e.g.,  GraphicsContext.GC_LINESTYLE
+            </param>
+            <param name="val">
+            Value, provided as an HTuple instance, the mode is 
+            to be changed to, e.g., new HTuple(new int[]{2,2})
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.ClearGraphicContext">
+            <summary>
+            Clears all entries from the graphical context list
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.GetGraphicContext">
+            <summary>
+            Returns a clone of the graphical context list (hashtable)
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.SetROIController(VM.Halcon.Model.ROIController)">
+            <summary>
+            Registers an instance of an ROIController with this window 
+            controller (and vice versa).
+            </summary>
+            <param name="rC"> 
+            Controller that manages interactive ROIs for the HALCON window 
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.addImageShow(HalconDotNet.HObject)">
+            <summary>
+            添加设定显示的图像
+            </summary>
+            <param name="image"></param>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.hObjectList">
+            <summary>
+            hObjectList用来存储存入的HObject
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.HWndCtrl.roiTextList">
+            <summary>
+            roiTextList用来存储存入的显示文本
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.DispObj(HalconDotNet.HObject,System.Boolean)">
+            <summary>
+            默认红颜色显示
+            </summary>
+            <param name="hObj">传入的region.xld,image</param>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.DispObj(HalconDotNet.HObject,System.String,System.Boolean)">
+            <summary>
+            重新开辟内存保存 防止被传入的HObject在其他地方dispose后,不能重现
+            </summary>
+            <param name="hObj">传入的region.xld,image</param>
+            <param name="color">颜色</param>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.DispObj(VM.Halcon.Config.HText)">
+            <summary>
+            重新开辟内存保存 防止被传入的HObject在其他地方dispose后,不能重现
+            </summary>
+            <param name="hObj">传入的region.xld,image</param>
+            <param name="color">颜色</param>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.ClearHObjectList">
+            <summary>
+            每次传入新的背景Image时,清空hObjectList,避免内存没有被释放
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.HWndCtrl.ShowHObjectList">
+            <summary>
+            将hObjectList中的HObject,按照先后顺序显示出来
+            </summary>
+        </member>
+        <member name="T:VM.Halcon.Model.ROI">
+             <summary>
+            这个类是一个基类，包含用于处理的虚拟方法
+            ROI因此，继承类需要定义/重写这些
+            为ROIController提供必要信息的方法
+            它(= ROIs)的形状和位置。示例项目提供
+            导出矩形、直线、圆和圆弧的ROI形状。
+            要使用其他形状，必须从基类派生一个新类
+            实现它的方法。
+             </summary>    
+        </member>
+        <member name="F:VM.Halcon.Model.ROI.ImageWidth">
+            <summary> 要显示roi的图像宽度</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROI.ImageHight">
+            <summary> 要显示roi的图像宽度</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROI.Color">
+            <summary>ROI颜色 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROI.Type">
+            <summary> ROI类型</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROI.NumHandles">
+            <summary>继承ROI类的类成员 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROI.ActiveHandleId">
+            <summary>激活ID</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROI.FlagLineStyle">
+            <summary>参数来定义ROI的线条样式。</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROI.POSITIVE_FLAG">
+            <summary>常数为负ROI标志。+</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROI.NEGATIVE_FLAG">
+            <summary>常数为负ROI标志。-</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROI.OperatorFlag">
+            <summary> 标记定义ROI为“正”或“负”。. </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROI.posOperation">
+            <summary> "+"方式直接直线 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROI.negOperation">
+            <summary> "-"方式的虚线/// </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROI.#ctor">
+            <summary>抽象ROI类的构造函数。</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROI.CreateROI(System.Double,System.Double)">
+            <summary>在鼠标位置创建一个新的ROI实例。</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROI.Draw(HalconDotNet.HWindow)">
+            <summary>将ROI绘制到提供的窗口中。</summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:VM.Halcon.Model.ROI.DistToClosestHandle(System.Double,System.Double)" -->
+        <member name="M:VM.Halcon.Model.ROI.DisplayActive(HalconDotNet.HWindow)">
+            <summary>将ROI对象的活动句柄绘制到提供的窗口中。 </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROI.moveByHandle(System.Double,System.Double)">
+            <summary> 重新计算ROI的形状。翻译是,在ROI对象的活动句柄上执行,为图像坐标(x,y)。/// </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROI.GetXLD">
+            <summary>获取ROI描述的HALCON轮廓</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROI.GetRegion">
+            <summary>获取ROI描述的HALCON区域</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROI.GetDistanceFromStartPoint(System.Double,System.Double)">
+            <summary> 从起点得到距离 </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROI.GetModelData">
+            <summary>获取所描述的模型信息 </summary> 
+        </member>
+        <member name="M:VM.Halcon.Model.ROI.GetNumHandles">
+            <summary>为ROI定义的句柄数。</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROI.GetActHandleIdx">
+            <summary>获取ROI的活动句柄,返回索引</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROI.GetOperatorFlag">
+            <summary>获取ROI对象的符号，线的样式：+|- </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROI.SetOperatorFlag(System.Int32)">
+            <summary>设置ROI对象的符号，线的样式：+|- </summary>
+        </member>
+        <member name="T:VM.Halcon.Model.ROICircle">
+            <summary>
+            This class demonstrates one of the possible implementations for a 
+            circular ROI. ROICircle inherits from the base class ROI and 
+            implements (besides other auxiliary methods) all virtual methods 
+            defined in ROI.cs.
+            </summary>
+        </member>
+        <member name="P:VM.Halcon.Model.ROICircle.CenterX">
+            <summary>圆心坐标X</summary>
+        </member>
+        <member name="P:VM.Halcon.Model.ROICircle.CenterY">
+            <summary>圆心坐标Y</summary>
+        </member>
+        <member name="P:VM.Halcon.Model.ROICircle.Radius">
+            <summary>半径</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICircle.CreateROI(System.Double,System.Double)">
+            <summary>Creates a new ROI instance at the mouse position</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICircle.Draw(HalconDotNet.HWindow)">
+            <summary>Paints the ROI into the supplied window</summary>
+            <param name="window">HALCON window</param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICircle.DistToClosestHandle(System.Double,System.Double)">
+            <summary> 
+            Returns the distance of the ROI handle being
+            closest to the image point(x,y)
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICircle.DisplayActive(HalconDotNet.HWindow)">
+            <summary> 
+            Paints the active handle of the ROI object into the supplied window 
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICircle.GetRegion">
+            <summary>Gets the HALCON region described by the ROI</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICircle.GetModelData">
+            <summary>
+            Gets the model information described by 
+            the  ROI
+            </summary> 
+        </member>
+        <member name="M:VM.Halcon.Model.ROICircle.moveByHandle(System.Double,System.Double)">
+            <summary> 
+            Recalculates the shape of the ROI. Translation is 
+            performed at the active handle of the ROI object 
+            for the image coordinate (x,y)
+            </summary>
+        </member>
+        <member name="T:VM.Halcon.Model.ROICircularArc">
+            <summary>
+            This class implements an ROI shaped as a circular
+            arc. ROICircularArc inherits from the base class ROI and 
+            implements (besides other auxiliary methods) all virtual methods 
+            defined in ROI.cs.
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICircularArc.CreateROI(System.Double,System.Double)">
+            <summary>Creates a new ROI instance at the mouse position</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICircularArc.Draw(HalconDotNet.HWindow)">
+            <summary>Paints the ROI into the supplied window</summary>
+            <param name="window">HALCON window</param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICircularArc.DistToClosestHandle(System.Double,System.Double)">
+            <summary> 
+            Returns the distance of the ROI handle being
+            closest to the image point(x,y)
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICircularArc.DisplayActive(HalconDotNet.HWindow)">
+            <summary> 
+            Paints the active handle of the ROI object into the supplied window 
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICircularArc.moveByHandle(System.Double,System.Double)">
+            <summary> 
+            Recalculates the shape of the ROI. Translation is 
+            performed at the active handle of the ROI object 
+            for the image coordinate (x,y)
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICircularArc.GetRegion">
+            <summary>Gets the HALCON region described by the ROI</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICircularArc.GetModelData">
+            <summary>
+            圆弧数据 行/列/半径/角度1/角度2
+            </summary> 
+        </member>
+        <member name="M:VM.Halcon.Model.ROICircularArc.DetermineArcHandles">
+            <summary>
+            Auxiliary method to determine the positions of the second and
+            third handle.
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICircularArc.setStartHandle">
+            <summary> 
+            Auxiliary method to recalculate the start handle for the arc 
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICircularArc.setExtentHandle">
+            <summary>
+            Auxiliary method to recalculate the extent handle for the arc
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICircularArc.ShowArrowHandle">
+            <summary>
+            Auxiliary method to display an arrow at the extent arc position
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROICircularArc.ShowStartRect2XLDHandle">
+            <summary>
+            更新起始点的矩形框
+            </summary>
+        </member>
+        <member name="T:VM.Halcon.Model.ROIController">
+            <summary>
+            This class creates and manages ROI objects. It responds 
+            to  mouse device inputs using the methods mouseDownAction and 
+            mouseMoveAction. You don't have to know this class in detail when you 
+            build your own C# Proj. But you must consider a few things if 
+            you want to use interactive ROIs in your application: There is a
+            quite close connection between the ROIController and the HWndCtrl 
+            class, which means that you must 'register' the ROIController
+            with the HWndCtrl, so the HWndCtrl knows it has to forward user input
+            (like mouse events) to the ROIController class.  
+            The visualization and manipulation of the ROI objects is done 
+            by the ROIController.
+            This class provides special support for the matching
+            applications by calculating a model region from the list of ROIs. For
+            this, ROIs are added and subtracted according to their sign.
+            </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIController.BrushRegion">
+            <summary>喷涂区域</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIController.MaskRegion">
+            <summary>掩膜区域</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIController.ROIList">
+            <summary>包含到目前为止所有创建的ROI对象的列表</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIController.ROIMode">
+            <summary> ROI类型 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIController.ROIState">
+            <summary> ROI样式 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIController.ROIName">
+            <summary> ROI名称 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIController.ROIModel">
+            <summary>ROI区域 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIController.ActiveROIId">
+            <summary>Index of the active ROI object</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIController.ActiveCol">
+            <summary>激活边线颜色 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIController.ActiveROICol">
+            <summary> 激活小框颜色 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIController.ActiveMousCol">
+            <summary> 鼠标拖动颜色</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIController.viewController">
+            <summary>参考HWndCtrl, ROI控制器注册到 </summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROIController.NotifyRCObserver">
+            <summary> 委托，它通知在模型区域中所做的更改 </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.#ctor">
+            <summary>构造函数</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.SetViewController(VM.Halcon.Model.HWndCtrl)">
+            <summary>Registers the HWndCtrl to this ROIController instance</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.GetModelRegion">
+            <summary>Gets the ROIModel object</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.GetROIList">
+            <summary>Gets the List of ROIs created so far</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.GetActiveROI">
+            <summary>Get the active ROI</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.SetROIShape(VM.Halcon.Model.ROI)">
+            <summary> 设置ROI样式 </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.SetROISign(System.Int32)">
+            <summary> 设置ROI样式 </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.RemoveActive">
+            <summary>
+            Removes the ROI object that is marked as active. 
+            If no ROI object is active, then nothing happens. 
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.DefineModelROI">
+             <summary>
+            计算包含的所有对象的ROIModel区域
+            在ROIList中，通过加减正数和
+            负的ROI对象。
+             </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.ResetVar">
+            <summary>
+            清除所有管理ROI对象的变量
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.ResetROI">
+             <summary>
+            如果'seed' ROI对象已被传递，则删除该ROI实例
+            通过应用程序类到ROIController。iables管理ROI对象
+             </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.SetDrawColor(System.String,System.String,System.String)">
+            <summary>定义ROI对象的颜色</summary>
+            <param name="aColor">Color for the active ROI object</param>
+            <param name="inaColor">Color for the inactive ROI objects</param>
+            <param name="aHdlColor">
+            激活的ROI对象的激活句柄的颜色
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.PaintData(HalconDotNet.HWindow)">
+            <summary>将ROIList中的所有对象绘制到HALCON窗口中 </summary>
+            <param name="window">HALCON window</param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.mouseDownAction(System.Double,System.Double)">
+            <summary>ROI对象对'mouse button down'事件的反应:changing///将ROI的形状添加到ROIList(如果它是一个'seed') </summary>
+            <param name="imgX">x coordinate of mouse event</param>
+            <param name="imgY">y coordinate of mouse event</param>
+            <returns></returns>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.mouseMoveAction(System.Double,System.Double)">
+            <summary>/// ROI对象对'mouse button move'事件的反应:moving///激活的ROI。</summary>
+            <param name="newX">x coordinate of mouse event</param>
+            <param name="newY">y coordinate of mouse event</param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.displayRect1(System.String,System.String,System.Double,System.Double,System.Double,System.Double)">
+            <summary>在指定位置显示ROI--Rectangle1</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.displayRect2(System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            在指定位置显示ROI--Rectangle2
+            </summary>
+            <param name="row"></param>
+            <param name="col"></param>
+            <param name="phi"></param>
+            <param name="length1"></param>
+            <param name="length2"></param>
+            <param name="rois"></param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.displayCircle(System.String,System.String,System.Double,System.Double,System.Double)">
+            <summary>
+            在指定位置生成ROI--Circle
+            </summary>
+            <param name="row"></param>
+            <param name="col"></param>
+            <param name="radius"></param>
+            <param name="rois"></param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:VM.Halcon.Model.ROIController.displayLine(System.String,System.String,System.Double,System.Double,System.Double,System.Double)" -->
+        <!-- Badly formed XML comment ignored for member "M:VM.Halcon.Model.ROIController.displayCoordLine(System.String,System.String,System.Double,System.Double,System.Double,System.Double)" -->
+        <member name="M:VM.Halcon.Model.ROIController.displayPoint(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            在指定位置生成ROI--Point
+            </summary>
+            <param name="row"></param>
+            <param name="col"></param>
+            <param name="rois"></param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.genRect1(System.String,System.Double,System.Double,System.Double,System.Double,System.Collections.Generic.Dictionary{System.String,VM.Halcon.Model.ROI}@)">
+            <summary>
+            在指定位置生成ROI--Rectangle1
+            </summary>
+            <param name="row1"></param>
+            <param name="col1"></param>
+            <param name="row2"></param>
+            <param name="col2"></param>
+            <param name="rois"></param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.genRect2(System.String,System.Double,System.Double,System.Double,System.Double,System.Double,System.Collections.Generic.Dictionary{System.String,VM.Halcon.Model.ROI}@)">
+            <summary>
+            在指定位置生成ROI--Rectangle2
+            </summary>
+            <param name="row"></param>
+            <param name="col"></param>
+            <param name="phi"></param>
+            <param name="length1"></param>
+            <param name="length2"></param>
+            <param name="rois"></param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.genCircle(System.String,System.Double,System.Double,System.Double,System.Collections.Generic.Dictionary{System.String,VM.Halcon.Model.ROI}@)">
+            <summary>
+            在指定位置生成ROI--Circle
+            </summary>
+            <param name="row"></param>
+            <param name="col"></param>
+            <param name="radius"></param>
+            <param name="rois"></param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.genCircleAre(System.String,System.Double,System.Double,System.Double,System.Collections.Generic.Dictionary{System.String,VM.Halcon.Model.ROI}@)">
+            <summary>
+            在指定位置生成ROI--Circle
+            </summary>
+            <param name="row"></param>
+            <param name="col"></param>
+            <param name="radius"></param>
+            <param name="rois"></param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.genLine(System.String,System.Double,System.Double,System.Double,System.Double,System.Collections.Generic.Dictionary{System.String,VM.Halcon.Model.ROI}@)">
+            <summary>
+            在指定位置生成ROI--Line
+            </summary>
+            <param name="beginRow"></param>
+            <param name="beginCol"></param>
+            <param name="endRow"></param>
+            <param name="endCol"></param>
+            <param name="rois"></param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.genCoordLine(System.String,System.Double,System.Double,System.Double,System.Double,System.Collections.Generic.Dictionary{System.String,VM.Halcon.Model.ROI}@)">
+            <summary>
+            在指定位置生成ROI--CoordLine
+            </summary>
+            <param name="beginRow"></param>
+            <param name="beginCol"></param>
+            <param name="endRow"></param>
+            <param name="endCol"></param>
+            <param name="rois"></param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.genPoint(System.String,System.Double,System.Double,System.Collections.Generic.Dictionary{System.String,VM.Halcon.Model.ROI}@)">
+            <summary>
+            在指定位置生成ROI--Point
+            </summary>
+            <param name="row"></param>
+            <param name="col"></param>
+            <param name="radius"></param>
+            <param name="rois"></param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.smallestActiveROI(System.String@,System.String@)">
+            <summary>
+            获取当前选中ROI的信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.removeActiveROI(System.Collections.Generic.Dictionary{System.String,VM.Halcon.Model.ROI}@)">
+            <summary>删除当前选中ROI </summary>
+            <param name="roi"></param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.selectROI(System.String)">
+            <summary>选中激活ROI</summary>
+            <param name="index"></param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.Eraser(System.Double,System.Double,System.Double)">
+            <summary>
+            擦除区域
+            </summary>
+            <param name="Row"></param>
+            <param name="Column"></param>
+            <param name="zoomWndFactor"></param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.Paint(System.Double,System.Double,System.Double)">
+            <summary>
+             喷涂区域
+            </summary>
+            <param name="Row"></param>
+            <param name="Column"></param>
+            <param name="zoomWndFactor"></param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIController.ResetWindowImage">
+            <summary>复位窗口显示</summary>
+        </member>
+        <member name="T:VM.Halcon.Model.ROILine">
+            <summary>
+            This class demonstrates one of the possible implementations for a 
+            linear ROI. ROILine inherits from the base class ROI and 
+            implements (besides other auxiliary methods) all virtual methods 
+            defined in ROI.cs.
+            </summary>
+        </member>
+        <member name="P:VM.Halcon.Model.ROILine.StartY">
+            <summary>起点行坐标</summary>
+        </member>
+        <member name="P:VM.Halcon.Model.ROILine.StartX">
+            <summarX>起点列坐标</summarX>
+        </member>
+        <member name="P:VM.Halcon.Model.ROILine.EndY">
+            <summary>终点行坐标</summary>
+        </member>
+        <member name="P:VM.Halcon.Model.ROILine.EndX">
+            <summary>终点列坐标</summary>
+        </member>
+        <member name="P:VM.Halcon.Model.ROILine.MidX">
+            <summary>中点行坐标</summary>
+        </member>
+        <member name="P:VM.Halcon.Model.ROILine.MidY">
+            <summary>中点列坐标</summary>
+        </member>
+        <member name="P:VM.Halcon.Model.ROILine.Phi">
+            <summary>直线角度</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROILine.Dist">
+            <summary>直线长度</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROILine.Nx">
+            <summary>行向量</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROILine.Ny">
+            <summary>列向量</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROILine.X">
+            <summary>X点集合</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROILine.Y">
+            <summary>Y点集合</summary>
+        </member>
+        <member name="F:VM.Halcon.Model.ROILine.arrowHandleXLD">
+            <summary>直线上添加箭头显示</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROILine.CreateROI(System.Double,System.Double)">
+            <summary>Creates a new ROI instance at the mouse position.</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROILine.Draw(HalconDotNet.HWindow)">
+            <summary>Paints the ROI into the supplied window.</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROILine.DistToClosestHandle(System.Double,System.Double)">
+            <summary> 
+            Returns the distance of the ROI handle being
+            closest to the image point(x,y).
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROILine.DisplayActive(HalconDotNet.HWindow)">
+            <summary> 
+            Paints the active handle of the ROI object into the supplied window. 
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROILine.GetRegion">
+            <summary>Gets the HALCON region described by the ROI.</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROILine.GetModelData">
+            <summary>
+            Gets the model information described by 
+            the ROI.
+            </summary> 
+        </member>
+        <member name="M:VM.Halcon.Model.ROILine.moveByHandle(System.Double,System.Double)">
+            <summary> 
+            Recalculates the shape of the ROI. Translation is 
+            performed at the active handle of the ROI object 
+            for the image coordinate (x,y).
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROILine.ShowArrowHandle">
+            <summary>
+            Auxiliary method
+            </summary>
+        </member>
+        <member name="T:VM.Halcon.Model.ROIPoint">
+            <summary>
+            This class demonstrates one of the possible implementations for a 
+            circular ROI. ROICircle inherits from the base class ROI and 
+            implements (besides other auxiliary methods) all virtual methods 
+            defined in ROI.cs.
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIPoint.Draw(HalconDotNet.HWindow)">
+            <summary>Paints the ROI into the supplied window</summary>
+            <param name="window">HALCON window</param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIPoint.DistToClosestHandle(System.Double,System.Double)">
+            <summary> 
+            Returns the distance of the ROI handle being
+            closest to the image point(x,y)
+            </summary>
+            <param name="x">x (=column) coordinate</param>
+            <param name="y">y (=row) coordinate</param>
+            <returns> 
+            Distance of the closest ROI handle.
+            </returns>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIPoint.DisplayActive(HalconDotNet.HWindow)">
+            <summary> 
+            Paints the active handle of the ROI object into the supplied window
+            </summary>
+            <param name="window">HALCON window</param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIPoint.GetRegion">
+            <summary>Gets the HALCON region described by the ROI</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIPoint.GetModelData">
+            <summary>
+            Gets the model information described by 
+            the interactive ROI
+            </summary> 
+        </member>
+        <member name="M:VM.Halcon.Model.ROIPoint.moveByHandle(System.Double,System.Double)">
+            <summary> 
+            Recalculates the shape of the ROI instance. Translation is 
+            performed at the active handle of the ROI object 
+            for the image coordinate (x,y)
+            </summary>
+            <param name="newX">x mouse coordinate</param>
+            <param name="newY">y mouse coordinate</param>
+        </member>
+        <member name="T:VM.Halcon.Model.ROIRectangle1">
+            <summary>
+            This class demonstrates one of the possible implementations for a 
+            (simple) rectangularly shaped ROI. ROIRectangle1 inherits 
+            from the base class ROI and implements (besides other auxiliary
+            methods) all virtual methods defined in ROI.cs.
+            Since a simple rectangle is defined by two data points, by the upper 
+            left corner and the lower right corner, we use four values (row1/col1) 
+            and (row2/col2) as class members to hold these positions at 
+            any time of the program. The four corners of the rectangle can be taken
+            as handles, which the user can use to manipulate the size of the ROI. 
+            Furthermore, we define a midpoint as an additional handle, with which
+            the user can grab and drag the ROI. Therefore, we declare NumHandles
+            to be 5 and set the activeHandle to be 0, which will be the upper left
+            corner of our ROI.
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIRectangle1.#ctor">
+            <summary>Constructor</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIRectangle1.CreateROI(System.Double,System.Double)">
+            <summary>Creates a new ROI instance at the mouse position</summary>
+            <param name="midX">
+            x (=column) coordinate for interactive ROI
+            </param>
+            <param name="midY">
+            y (=row) coordinate for interactive ROI
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIRectangle1.Draw(HalconDotNet.HWindow)">
+            <summary>Paints the ROI into the supplied window</summary>
+            <param name="window">HALCON window</param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIRectangle1.DistToClosestHandle(System.Double,System.Double)">
+            <summary> 
+            Returns the distance of the ROI handle being
+            closest to the image point(x,y)
+            </summary>
+            <param name="x">x (=column) coordinate</param>
+            <param name="y">y (=row) coordinate</param>
+            <returns> 
+            Distance of the closest ROI handle.
+            </returns>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIRectangle1.DisplayActive(HalconDotNet.HWindow)">
+            <summary> 
+            Paints the active handle of the ROI object into the supplied window
+            </summary>
+            <param name="window">HALCON window</param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIRectangle1.GetRegion">
+            <summary>Gets the HALCON region described by the ROI</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIRectangle1.GetModelData">
+            <summary>
+            Gets the model information described by 
+            the interactive ROI
+            </summary> 
+        </member>
+        <member name="M:VM.Halcon.Model.ROIRectangle1.moveByHandle(System.Double,System.Double)">
+            <summary> 
+            Recalculates the shape of the ROI instance. Translation is 
+            performed at the active handle of the ROI object 
+            for the image coordinate (x,y)
+            </summary>
+            <param name="newX">x mouse coordinate</param>
+            <param name="newY">y mouse coordinate</param>
+        </member>
+        <member name="T:VM.Halcon.Model.ROIRectangle2">
+            <summary>
+            This class demonstrates one of the possible implementations for a 
+            (simple) rectangularly shaped ROI. To create this rectangle we use 
+            a center point (MidR, MidC), an orientation 'Phi' and the half 
+            edge lengths 'Length1' and 'Length2', similar to the HALCON 
+            operator gen_rectangle2(). 
+            The class ROIRectangle2 inherits from the base class ROI and 
+            implements (besides other auxiliary methods) all virtual methods 
+            defined in ROI.cs.
+            </summary>
+        </member>
+        <member name="P:VM.Halcon.Model.ROIRectangle2.Length1">
+            <summary>Half length of the rectangle side, perpendicular to Phi</summary>
+        </member>
+        <member name="P:VM.Halcon.Model.ROIRectangle2.Length2">
+            <summary>Half length of the rectangle side, in direction of Phi</summary>
+        </member>
+        <member name="P:VM.Halcon.Model.ROIRectangle2.MidR">
+            <summary>Row coordinate of midpoint of the rectangle</summary>
+        </member>
+        <member name="P:VM.Halcon.Model.ROIRectangle2.MidC">
+            <summary>Column coordinate of midpoint of the rectangle</summary>
+        </member>
+        <member name="P:VM.Halcon.Model.ROIRectangle2.Phi">
+            <summary>Orientation of rectangle defined in radians.</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIRectangle2.#ctor">
+            <summary>Constructor</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIRectangle2.CreateROI(System.Double,System.Double)">
+            <summary>Creates a new ROI instance at the mouse position</summary>
+            <param name="midX">
+            x (=column) coordinate for interactive ROI
+            </param>
+            <param name="midY">
+            y (=row) coordinate for interactive ROI
+            </param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIRectangle2.Draw(HalconDotNet.HWindow)">
+            <summary>Paints the ROI into the supplied window</summary>
+            <param name="window">HALCON window</param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIRectangle2.DistToClosestHandle(System.Double,System.Double)">
+            <summary> 
+            Returns the distance of the ROI handle being
+            closest to the image point(x,y)
+            </summary>
+            <param name="x">x (=column) coordinate</param>
+            <param name="y">y (=row) coordinate</param>
+            <returns> 
+            Distance of the closest ROI handle.
+            </returns>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIRectangle2.DisplayActive(HalconDotNet.HWindow)">
+            <summary> 
+            Paints the active handle of the ROI object into the supplied window
+            </summary>
+            <param name="window">HALCON window</param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIRectangle2.GetRegion">
+            <summary>Gets the HALCON region described by the ROI</summary>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIRectangle2.GetModelData">
+            <summary>
+            Gets the model information described by 
+            the interactive ROI
+            </summary> 
+        </member>
+        <member name="M:VM.Halcon.Model.ROIRectangle2.moveByHandle(System.Double,System.Double)">
+            <summary> 
+            Recalculates the shape of the ROI instance. Translation is 
+            performed at the active handle of the ROI object 
+            for the image coordinate (x,y)
+            </summary>
+            <param name="newX">x mouse coordinate</param>
+            <param name="newY">y mouse coordinate</param>
+        </member>
+        <member name="M:VM.Halcon.Model.ROIRectangle2.updateHandlePos">
+            <summary>
+            Auxiliary method to recalculate the contour points of 
+            the rectangle by transforming the initial row and 
+            column coordinates (rowsInit, colsInit) by the updated
+            homography hom2D
+            </summary>
+        </member>
+        <member name="T:VM.Halcon.VMHWindowControl">
+             <summary>
+             halcon鼠标缩放控件
+            
+             描述:
+                  1, 必须首先通过this.HobjectToHimage(HObject hobject)传入图片,此图片称为"背景图"
+                  2, 有了背景图,就可以通过本控件自定义的 this.DispObj(HObject hObj)显示HObject,类似原方法
+                  3,默认显示红色,DispObj(HObject hObj,string color)可显示其他颜色
+             </summary>
+        </member>
+        <member name="M:VM.Halcon.VMHWindowControl.#ctor">
+            <summary>
+            初始化控件
+            </summary>
+        </member>
+        <member name="P:VM.Halcon.VMHWindowControl.DrawModel">
+            <summary>
+            绘制模式下,不允许缩放和鼠标右键菜单
+            </summary>
+        </member>
+        <member name="P:VM.Halcon.VMHWindowControl.Image">
+            <summary>
+            设置image,初始化控件参数
+            </summary>
+        </member>
+        <member name="P:VM.Halcon.VMHWindowControl.HWindowHalconID">
+            <summary>
+            获得halcon窗体控件的句柄
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.VMHWindowControl.barVisible_strip_CheckedChanged(System.Object,System.EventArgs)">
+            <summary>
+            状态条 显示/隐藏 CheckedChanged事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VM.Halcon.VMHWindowControl.SaveWindowDump">
+            <summary>
+            保存窗体截图到本地
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.VMHWindowControl.SaveImage">
+            <summary>
+            保存原始图片到本地
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.VMHWindowControl.OpenImage">
+            <summary>
+            打开图片
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.VMHWindowControl.DispImageFitImage">
+            <summary>
+            图片适应大小显示在窗体
+            </summary>
+            <param name="hw_Ctrl">halcon窗体控件</param>
+        </member>
+        <member name="M:VM.Halcon.VMHWindowControl.DispImageFitWindow">
+            <summary>
+            图片适应大小显示在窗体
+            </summary>
+            <param name="hw_Ctrl">halcon窗体控件</param>
+        </member>
+        <member name="M:VM.Halcon.VMHWindowControl.HWindowControl_HMouseMove(System.Object,HalconDotNet.HMouseEventArgs)">
+            <summary>
+            鼠标在空间窗体里滑动,显示鼠标所在位置的灰度值
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VM.Halcon.VMHWindowControl.DispObj(HalconDotNet.HObject,System.Boolean)">
+            <summary>
+            默认红颜色显示
+            </summary>
+            <param name="hObj">传入的region.xld,image</param>
+        </member>
+        <member name="M:VM.Halcon.VMHWindowControl.DispObj(HalconDotNet.HObject,System.String,System.Boolean)">
+            <summary>
+            重新开辟内存保存 防止被传入的HObject在其他地方dispose后,不能重现
+            </summary>
+            <param name="hObj">传入的region.xld,image</param>
+            <param name="color">颜色</param>
+        </member>
+        <member name="M:VM.Halcon.VMHWindowControl.mCtrl_HWindow_MouseLeave(System.Object,System.EventArgs)">
+            <summary>
+            鼠标离开事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VM.Halcon.VMHWindowControl.ShowHImage(VM.Halcon.Config.RImage)">
+            <summary>
+            显示he文件
+            </summary>
+            <param name="he"></param>
+        </member>
+        <member name="F:VM.Halcon.VMHWindowControl.message">
+            <summary>灰度值，坐标位置</summary>
+        </member>
+        <member name="F:VM.Halcon.VMHWindowControl.BrushRegion">
+            <summary>喷涂区域</summary>
+        </member>
+        <member name="F:VM.Halcon.VMHWindowControl.MaskRegion">
+            <summary>掩膜区域</summary>
+        </member>
+        <member name="M:VM.Halcon.VMHWindowControl.Eraser(System.Double,System.Double,System.Double)">
+            <summary>
+            擦除区域
+            </summary>
+            <param name="Row"></param>
+            <param name="Column"></param>
+            <param name="zoomWndFactor"></param>
+        </member>
+        <member name="M:VM.Halcon.VMHWindowControl.Paint(System.Double,System.Double,System.Double)">
+            <summary>
+             喷涂区域
+            </summary>
+            <param name="Row"></param>
+            <param name="Column"></param>
+            <param name="zoomWndFactor"></param>
+        </member>
+        <member name="M:VM.Halcon.VMHWindowControl.SetROI(HalconDotNet.HRegion,System.Int32)">
+            <summary>
+            绘制任意屏蔽区域
+            </summary>
+            <param name="region"></param>
+            <returns></returns>
+        </member>
+        <member name="F:VM.Halcon.VMHWindowControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.VMHWindowControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VM.Halcon.VMHWindowControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.ViewWindow.ClearWindow">
+            <summary>
+            清空所有显示内容
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.ViewWindow.displayImage(HalconDotNet.HObject)">
+            <summary>
+            显示图片
+            </summary>
+            <param name="img"></param>
+        </member>
+        <member name="M:VM.Halcon.ViewWindow.resetWindow">
+            <summary>
+            自适应窗口
+            </summary>
+        </member>
+        <member name="M:VM.Halcon.ViewWindow.getRoiCount">
+            <summary>
+            获取当前窗口显示的roi数量
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VM.Halcon.ViewWindow.setDrawModel(System.Boolean)">
+            <summary>
+            是否开启缩放事件
+            </summary>
+            <param name="flag"></param>
+        </member>
+        <member name="T:VM.Halcon.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:VM.Halcon.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:VM.Halcon.Properties.Resources.Culture">
+            <summary>
+              重写当前线程的 CurrentUICulture 属性，对
+              使用此强类型资源类的所有资源查找执行重写。
+            </summary>
+        </member>
+    </members>
+</doc>

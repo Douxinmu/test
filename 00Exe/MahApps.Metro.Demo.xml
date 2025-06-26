@@ -1,0 +1,474 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MahApps.Metro.Demo</name>
+    </assembly>
+    <members>
+        <member name="T:MetroDemo.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:MetroDemo.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:MetroDemo.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleViews.ButtonsExample">
+            <summary>
+            Interaction logic for ButtonsExample.xaml
+            </summary>
+            <summary>
+            ButtonsExample
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleViews.ButtonsExample.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleViews.ColorExample">
+            <summary>
+            Interaction logic for ColorExample.xaml
+            </summary>
+            <summary>
+            ColorExample
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleViews.ColorExample.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleViews.ColorPickerExample">
+            <summary>
+            Interaction logic for ColorPickerExample.xaml
+            </summary>
+            <summary>
+            ColorPickerExample
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleViews.ColorPickerExample.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleViews.CustomDialogExample">
+            <summary>
+            Interaction logic for CustomDialogContent.xaml
+            </summary>
+            <summary>
+            CustomDialogExample
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleViews.CustomDialogExample.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleViews.DataGridExamples">
+            <summary>
+            Interaction logic for DataGridExamples.xaml
+            </summary>
+            <summary>
+            DataGridExamples
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleViews.DataGridExamples.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleViews.DateExamples">
+            <summary>
+            Interaction logic for DateExamples.xaml
+            </summary>
+            <summary>
+            DateExamples
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleViews.DateExamples.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleViews.HamburgerMenuCreatorsUpdate">
+            <summary>
+            HamburgerMenuCreatorsUpdate
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleViews.HamburgerMenuCreatorsUpdate.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleViews.HamburgerMenuDefault">
+            <summary>
+            HamburgerMenuDefault
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleViews.HamburgerMenuDefault.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleViews.HamburgerMenuSample">
+            <summary>
+            HamburgerMenuSample
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleViews.HamburgerMenuSample.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleViews.OtherExamples">
+            <summary>
+            Interaction logic for OtherExamples.xaml
+            </summary>
+            <summary>
+            OtherExamples
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleViews.OtherExamples.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleViews.ProgressBars">
+            <summary>
+            Interaction logic for ProgressBars.xaml
+            </summary>
+            <summary>
+            ProgressBars
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleViews.ProgressBars.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleViews.SelectionExamples">
+            <summary>
+            Interaction logic for SelectionExamples.xaml
+            </summary>
+            <summary>
+            SelectionExamples
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleViews.SelectionExamples.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleViews.Sliders">
+            <summary>
+            Interaction logic for Sliders.xaml
+            </summary>
+            <summary>
+            Sliders
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleViews.Sliders.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleViews.SplitViewExamples">
+            <summary>
+                Interaction logic for SplitViewExamples.xaml
+            </summary>
+            <summary>
+            SplitViewExamples
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleViews.SplitViewExamples.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleViews.TabControlExamples">
+            <summary>
+            Interaction logic for TabControlExamples.xaml
+            </summary>
+            <summary>
+            TabControlExamples
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleViews.TabControlExamples.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleViews.TextExamples">
+            <summary>
+            Interaction logic for TextExamples.xaml
+            </summary>
+            <summary>
+            TextExamples
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleViews.TextExamples.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleViews.TilesExample">
+            <summary>
+            Interaction logic for TilesExample.xaml
+            </summary>
+            <summary>
+            TilesExample
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleViews.TilesExample.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleWindows.CleanWindowDemo">
+            <summary>
+            Interaction logic for CleanWindowDemo.xaml
+            </summary>
+            <summary>
+            CleanWindowDemo
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleWindows.CleanWindowDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleWindows.DynamicFlyout">
+            <summary>
+            Interaction logic for DynamicFlyout.xaml
+            </summary>
+            <summary>
+            DynamicFlyout
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleWindows.DynamicFlyout.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleWindows.FlyoutDemo">
+            <summary>
+            FlyoutDemo
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleWindows.FlyoutDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleWindows.InteropDemo">
+            <summary>
+            InteropDemo
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleWindows.InteropDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleWindows.ShowcaseFlyout">
+            <summary>
+            ShowcaseFlyout
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleWindows.ShowcaseFlyout.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleWindows.SizeToContentDemo">
+            <summary>
+            Interaction logic for SizeToContentDemo.xaml
+            </summary>
+            <summary>
+            SizeToContentDemo
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleWindows.SizeToContentDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ExampleWindows.VSDemo">
+            <summary>
+            VSDemo
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ExampleWindows.VSDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.HamburgerMenuRipple">
+            <summary>
+            HamburgerMenuRipple
+            </summary>
+        </member>
+        <member name="M:MetroDemo.HamburgerMenuRipple.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.HomeView">
+            <summary>
+            Interaction logic for AboutView.xaml
+            </summary>
+            <summary>
+            HomeView
+            </summary>
+        </member>
+        <member name="M:MetroDemo.HomeView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.PrivateView">
+            <summary>
+            Interaction logic for AboutView.xaml
+            </summary>
+            <summary>
+            PrivateView
+            </summary>
+        </member>
+        <member name="M:MetroDemo.PrivateView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.SettingsView">
+            <summary>
+            Interaction logic for AboutView.xaml
+            </summary>
+            <summary>
+            SettingsView
+            </summary>
+        </member>
+        <member name="M:MetroDemo.SettingsView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.MainWindow">
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:MetroDemo.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.Markup.EnumBindingSourceExtension">
+            <summary>
+            Markup extension for Enum values.
+            </summary>
+        </member>
+        <member name="P:MetroDemo.Markup.EnumBindingSourceExtension.EnumType">
+            <summary>
+            Gets or sets the type of the Enum.
+            </summary>
+            <exception cref="T:System.ArgumentException">Value is not an Enum type.</exception>
+        </member>
+        <member name="M:MetroDemo.Markup.EnumBindingSourceExtension.#ctor">
+            <summary>
+            Initializes a new instance of EnumBindingSourceExtension.
+            </summary>
+        </member>
+        <member name="M:MetroDemo.Markup.EnumBindingSourceExtension.#ctor(System.Type)">
+            <summary>
+            Initializes a new instance of EnumBindingSourceExtension.
+            </summary>
+            <param name="enumType">The type of the Enum.</param>
+        </member>
+        <member name="M:MetroDemo.Markup.EnumBindingSourceExtension.ProvideValue(System.IServiceProvider)">
+            <inheritdoc />
+        </member>
+        <member name="T:MetroDemo.Navigation.HomePage">
+            <summary>
+            Interaction logic for HomePage.xaml
+            </summary>
+            <summary>
+            HomePage
+            </summary>
+        </member>
+        <member name="M:MetroDemo.Navigation.HomePage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.Navigation.InterestingPage">
+            <summary>
+            Interaction logic for InterestingPage.xaml
+            </summary>
+            <summary>
+            InterestingPage
+            </summary>
+        </member>
+        <member name="M:MetroDemo.Navigation.InterestingPage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetroDemo.ValueConverter.Int32IndexToNumberConverter">
+            <summary>
+            Converts an Int32 zero-based index to a one-based number.
+            </summary>
+        </member>
+        <member name="M:MetroDemo.ValueConverter.Int32IndexToNumberConverter.ProvideValue(System.IServiceProvider)">
+            <summary>
+            Returns the value for the target property of this markup extension.
+            </summary>
+            <param name="serviceProvider">Object that can provide services for the markup extension.</param>
+            <returns>Reference to the instance of this Int32IndexToNumberConverter.</returns>
+        </member>
+        <member name="M:MetroDemo.ValueConverter.Int32IndexToNumberConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts an Int32 zero-based index to a one-based number.
+            </summary>
+            <param name="value">Int32 zero-based index.</param>
+            <param name="targetType">Ignored.</param>
+            <param name="parameter">Ignored.</param>
+            <param name="culture">Ignored.</param>
+            <returns>Int32 one-based number.</returns>
+            <exception cref="T:System.FormatException">Incorrect format.</exception>
+            <exception cref="T:System.InvalidCastException">Unsupported convversion.</exception>
+            <exception cref="T:System.OverflowException">Out of range of Int32.</exception>
+        </member>
+        <member name="M:MetroDemo.ValueConverter.Int32IndexToNumberConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts an Int32 one-based number to a zero-based index.
+            </summary>
+            <param name="value">Int32 one-based number.</param>
+            <param name="targetType">Ignored.</param>
+            <param name="parameter">Ignored.</param>
+            <param name="culture">Ignored.</param>
+            <returns>Int32 zero-based index.</returns>
+            <exception cref="T:System.FormatException">Incorrect format.</exception>
+            <exception cref="T:System.InvalidCastException">Unsupported convversion.</exception>
+            <exception cref="T:System.OverflowException">Out of range of Int32.</exception>
+        </member>
+        <member name="M:MetroDemo.ValueConverter.ItemCountConverter.ProvideValue(System.IServiceProvider)">
+            <inheritdoc />
+        </member>
+        <member name="M:MetroDemo.ValueConverter.ItemCountConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <inheritdoc />
+        </member>
+        <member name="M:MetroDemo.ValueConverter.ItemCountConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

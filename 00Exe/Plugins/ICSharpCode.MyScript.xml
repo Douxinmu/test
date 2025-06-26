@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ICSharpCode.MyScript</name>
+    </assembly>
+    <members>
+        <member name="M:Sample.CSS.TestTool1.Str1">
+            <summary>
+            dssadsa
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sample.CSS.TestTool.Str1">
+            <summary>
+            dssadsa
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VM.Script.Method.ScriptMethods.Show(System.String)">
+            <summary>
+            弹窗显示
+            </summary>
+            <param name="str"></param>
+        </member>
+        <member name="M:VM.Script.Support.ScriptSupport.CodeRun">
+            <summary>
+            运行脚本
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VM.Script.Support.ScriptSupport.Compile(System.Object)">
+            <summary>
+            编译代码
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VM.Script.Support.ScriptSupport.AddReferenceAssemblyByType(System.Type)">
+            <summary>
+            添加指定的类型所在的引用
+            </summary>
+            <param name="SourceType">对象类型</param>
+        </member>
+    </members>
+</doc>

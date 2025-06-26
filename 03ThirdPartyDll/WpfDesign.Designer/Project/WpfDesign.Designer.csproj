@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFrameworks>net45</TargetFrameworks>
+	<UseWPF>true</UseWPF>
+	<AssemblyName>ICSharpCode.WpfDesign.Designer</AssemblyName>
+	<DocumentationFile>$(SolutionDir)00Exe\ICSharpCode.WpfDesign.Designer.xml</DocumentationFile>
+	<Version>8.1</Version>
+	<AssemblyVersion>8.1.0.0</AssemblyVersion>
+	<FileVersion>8.1.0.0</FileVersion>
+	<Company>ic#code</Company>
+	<Copyright>2000-2021 AlphaSierraPapa for the SharpDevelop Team</Copyright>
+  <OutputPath>..\..\bin\</OutputPath>
+  <Platforms>AnyCPU;x64</Platforms>
+  <BaseOutputPath>$(SolutionDir)00Exe</BaseOutputPath>
+  </PropertyGroup>
+	<ItemGroup Condition=" '$(TargetFramework)' == 'net45' ">
+		<Reference Include="PresentationFramework.Aero" />
+		<Reference Include="ReachFramework" />
+	</ItemGroup>
+	<ItemGroup>
+    <ProjectReference Include="..\..\WpfDesign.XamlDom\Project\WpfDesign.XamlDom.csproj" />
+    <ProjectReference Include="..\..\WpfDesign\Project\WpfDesign.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Images\*" />
+    <Resource Include="Images\*" />
+  </ItemGroup>
+</Project>

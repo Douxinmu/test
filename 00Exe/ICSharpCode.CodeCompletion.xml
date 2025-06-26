@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ICSharpCode.CodeCompletion</name>
+    </assembly>
+    <members>
+        <member name="M:ICSharpCode.CodeCompletion.CodeTextEditor.GetCompletionDocument(System.Int32@)">
+            <summary>
+            Gets the document used for code completion, can be overridden to provide a custom document
+            </summary>
+            <param name="offset"></param>
+            <returns>The document of this text editor.</returns>
+        </member>
+        <member name="M:ICSharpCode.CodeCompletion.CSharpCompletionContext.#ctor(ICSharpCode.NRefactory.Editor.IDocument,System.Int32,ICSharpCode.NRefactory.TypeSystem.IProjectContent,System.String,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ICSharpCode.CodeCompletion.CSharpCompletionContext"/> class.
+            </summary>
+            <param name="document">The document, make sure the FileName property is set on the document.</param>
+            <param name="offset">The offset.</param>
+            <param name="projectContent">Content of the project.</param>
+            <param name="usings">The usings.</param>
+            <param name="variables">The variables</param>
+        </member>
+        <member name="M:ICSharpCode.CodeCompletion.DataItems.EntityCompletionData.GetText(ICSharpCode.NRefactory.TypeSystem.IEntity)">
+            <summary>
+            Converts a member to text.
+            Returns the declaration of the member as C# or VB code, e.g.
+            "public void MemberName(string parameter)"
+            </summary>
+        </member>
+        <member name="T:ICSharpCode.CodeCompletion.DataItems.ImportCompletionData">
+            <summary>
+            Completion item that introduces a using declaration.
+            </summary>
+        </member>
+        <member name="T:ICSharpCode.CodeCompletion.DataItems.OverrideCompletionData">
+            <summary>
+            Item for 'override' completion.
+            </summary>
+        </member>
+        <member name="T:ICSharpCode.CodeCompletion.ICSharpScriptProvider">
+            <summary>
+            This interface allows to provide more information for scripts such as using statements, etc.
+            </summary>
+        </member>
+        <member name="T:ICSharpCode.CodeCompletion.Sample.RedUnderLine.RedUnderLineTool">
+            <summary>
+            用户给控件画下划线
+            </summary>
+        </member>
+        <member name="T:ICSharpCode.CodeCompletion.SegmentTrackingOutputFormatter">
+            <summary>
+            Output formatter that creates a dictionary from AST nodes to segments in the output text.
+            </summary>
+        </member>
+        <member name="T:ICSharpCode.SharpDevelop.Editor.ITextMarker">
+            <summary>
+            Represents a text marker.
+            </summary>
+        </member>
+        <member name="P:ICSharpCode.SharpDevelop.Editor.ITextMarker.StartOffset">
+            <summary>
+            Gets the start offset of the marked text region.
+            </summary>
+        </member>
+        <member name="P:ICSharpCode.SharpDevelop.Editor.ITextMarker.EndOffset">
+            <summary>
+            Gets the end offset of the marked text region.
+            </summary>
+        </member>
+        <member name="P:ICSharpCode.SharpDevelop.Editor.ITextMarker.Length">
+            <summary>
+            Gets the length of the marked region.
+            </summary>
+        </member>
+        <member name="M:ICSharpCode.SharpDevelop.Editor.ITextMarker.Delete">
+            <summary>
+            Deletes the text marker.
+            </summary>
+        </member>
+        <member name="P:ICSharpCode.SharpDevelop.Editor.ITextMarker.IsDeleted">
+            <summary>
+            Gets whether the text marker was deleted.
+            </summary>
+        </member>
+        <member name="E:ICSharpCode.SharpDevelop.Editor.ITextMarker.Deleted">
+            <summary>
+            Event that occurs when the text marker is deleted.
+            </summary>
+        </member>
+        <member name="P:ICSharpCode.SharpDevelop.Editor.ITextMarker.BackgroundColor">
+            <summary>
+            Gets/Sets the background color.
+            </summary>
+        </member>
+        <member name="P:ICSharpCode.SharpDevelop.Editor.ITextMarker.ForegroundColor">
+            <summary>
+            Gets/Sets the foreground color.
+            </summary>
+        </member>
+        <member name="P:ICSharpCode.SharpDevelop.Editor.ITextMarker.FontWeight">
+            <summary>
+            Gets/Sets the font weight.
+            </summary>
+        </member>
+        <member name="P:ICSharpCode.SharpDevelop.Editor.ITextMarker.FontStyle">
+            <summary>
+            Gets/Sets the font style.
+            </summary>
+        </member>
+        <member name="P:ICSharpCode.SharpDevelop.Editor.ITextMarker.MarkerTypes">
+            <summary>
+            Gets/Sets the type of the marker. Use TextMarkerType.None for normal markers.
+            </summary>
+        </member>
+        <member name="P:ICSharpCode.SharpDevelop.Editor.ITextMarker.MarkerColor">
+            <summary>
+            Gets/Sets the color of the marker.
+            </summary>
+        </member>
+        <member name="P:ICSharpCode.SharpDevelop.Editor.ITextMarker.Tag">
+            <summary>
+            Gets/Sets an object with additional data for this text marker.
+            </summary>
+        </member>
+        <member name="P:ICSharpCode.SharpDevelop.Editor.ITextMarker.ToolTip">
+            <summary>
+            Gets/Sets an object that will be displayed as tooltip in the text editor.
+            </summary>
+            <remarks>Not supported in this sample!</remarks>
+        </member>
+        <member name="F:ICSharpCode.SharpDevelop.Editor.TextMarkerTypes.None">
+            <summary>
+            Use no marker
+            </summary>
+        </member>
+        <member name="F:ICSharpCode.SharpDevelop.Editor.TextMarkerTypes.SquigglyUnderline">
+            <summary>
+            Use squiggly underline marker
+            </summary>
+        </member>
+        <member name="F:ICSharpCode.SharpDevelop.Editor.TextMarkerTypes.NormalUnderline">
+            <summary>
+            Normal underline.
+            </summary>
+        </member>
+        <member name="F:ICSharpCode.SharpDevelop.Editor.TextMarkerTypes.DottedUnderline">
+            <summary>
+            Dotted underline.
+            </summary>
+        </member>
+        <member name="F:ICSharpCode.SharpDevelop.Editor.TextMarkerTypes.LineInScrollBar">
+            <summary>
+            Horizontal line in the scroll bar.
+            </summary>
+        </member>
+        <member name="F:ICSharpCode.SharpDevelop.Editor.TextMarkerTypes.ScrollBarRightTriangle">
+            <summary>
+            Small triangle in the scroll bar, pointing to the right.
+            </summary>
+        </member>
+        <member name="F:ICSharpCode.SharpDevelop.Editor.TextMarkerTypes.ScrollBarLeftTriangle">
+            <summary>
+            Small triangle in the scroll bar, pointing to the left.
+            </summary>
+        </member>
+        <member name="F:ICSharpCode.SharpDevelop.Editor.TextMarkerTypes.CircleInScrollBar">
+            <summary>
+            Small circle in the scroll bar.
+            </summary>
+        </member>
+        <member name="M:ICSharpCode.SharpDevelop.Editor.ITextMarkerService.Create(System.Int32,System.Int32)">
+            <summary>
+            Creates a new text marker. The text marker will be invisible at first,
+            you need to set one of the Color properties to make it visible.
+            </summary>
+        </member>
+        <member name="P:ICSharpCode.SharpDevelop.Editor.ITextMarkerService.TextMarkers">
+            <summary>
+            Gets the list of text markers.
+            </summary>
+        </member>
+        <member name="M:ICSharpCode.SharpDevelop.Editor.ITextMarkerService.Remove(ICSharpCode.SharpDevelop.Editor.ITextMarker)">
+            <summary>
+            Removes the specified text marker.
+            </summary>
+        </member>
+        <member name="M:ICSharpCode.SharpDevelop.Editor.ITextMarkerService.RemoveAll(System.Predicate{ICSharpCode.SharpDevelop.Editor.ITextMarker})">
+            <summary>
+            Removes all text markers that match the condition.
+            </summary>
+        </member>
+        <member name="M:ICSharpCode.SharpDevelop.Editor.ITextMarkerService.GetMarkersAtOffset(System.Int32)">
+            <summary>
+            Finds all text markers at the specified offset.
+            </summary>
+        </member>
+        <member name="T:ICSharpCode.AvalonEdit.AddIn.TextMarkerService">
+            <summary>
+            Handles the text markers for a code editor.
+            </summary>
+        </member>
+        <member name="M:ICSharpCode.AvalonEdit.AddIn.TextMarkerService.Redraw(ICSharpCode.NRefactory.Editor.ISegment)">
+            <summary>
+            Redraws the specified text segment.
+            </summary>
+        </member>
+    </members>
+</doc>
